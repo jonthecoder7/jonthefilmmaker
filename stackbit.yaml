@@ -11,6 +11,8 @@ models:
     match:
       - archetypes\default.md
       - archetypes\posts.md
+      - content\authors\hugo-authors\_index.md
+      - content\authors\hugo-authors\_index.pt-br.md
       - docs\analytics\applicationinsights.md
       - docs\analytics\baidu.md
       - docs\analytics\clicky.md
@@ -35,14 +37,46 @@ models:
       - docs\home.md
       - docs\multilingual-mode.md
       - docs\quick-start.md
-      - exampleSite\content\authors\hugo-authors\_index.md
-      - exampleSite\content\authors\hugo-authors\_index.pt-br.md
+      - themes\hugo-coder\CONTRIBUTORS.md
+      - themes\hugo-coder\LICENSE.md
+      - themes\hugo-coder\archetypes\default.md
+      - themes\hugo-coder\archetypes\posts.md
+      - themes\hugo-coder\docs\analytics\applicationinsights.md
+      - themes\hugo-coder\docs\analytics\baidu.md
+      - themes\hugo-coder\docs\analytics\clicky.md
+      - themes\hugo-coder\docs\analytics\cloudflare.md
+      - themes\hugo-coder\docs\analytics\fathom.md
+      - themes\hugo-coder\docs\analytics\goatcounter.md
+      - themes\hugo-coder\docs\analytics\googleanalytics.md
+      - themes\hugo-coder\docs\analytics\googletagmanager.md
+      - themes\hugo-coder\docs\analytics\matomo.md
+      - themes\hugo-coder\docs\analytics\microanalytics.md
+      - themes\hugo-coder\docs\analytics\onedollarstats.md
+      - themes\hugo-coder\docs\analytics\pirsch.md
+      - themes\hugo-coder\docs\analytics\plausible.md
+      - themes\hugo-coder\docs\analytics\umami.md
+      - themes\hugo-coder\docs\analytics\vercel.md
+      - themes\hugo-coder\docs\analytics\wideangle.md
+      - themes\hugo-coder\docs\analytics.md
+      - themes\hugo-coder\docs\comment-system.md
+      - themes\hugo-coder\docs\configurations.md
+      - themes\hugo-coder\docs\contributing.md
+      - themes\hugo-coder\docs\faq.md
+      - themes\hugo-coder\docs\home.md
+      - themes\hugo-coder\docs\multilingual-mode.md
+      - themes\hugo-coder\docs\quick-start.md
+      - themes\hugo-coder\exampleSite\content\authors\hugo-authors\_index.md
+      - >-
+        themes\hugo-coder\exampleSite\content\authors\hugo-authors\_index.pt-br.md
     fields: []
-  content:
+  page_2:
     type: page
-    label: Content
-    folder: exampleSite\content
-    match: '*'
+    label: Page 2
+    match:
+      - content\about.md
+      - content\about.pt-br.md
+      - themes\hugo-coder\exampleSite\content\about.md
+      - themes\hugo-coder\exampleSite\content\about.pt-br.md
     fields:
       - type: string
         name: title
@@ -61,11 +95,18 @@ models:
       - type: string
         name: author
         label: Author
-  content_1:
+  page_3:
     type: page
-    label: Content 1
-    folder: exampleSite\content
-    match: '*'
+    label: Page 3
+    match:
+      - content\contact.md
+      - content\contact.pt-br.md
+      - content\projects.md
+      - content\projects.pt-br.md
+      - themes\hugo-coder\exampleSite\content\contact.md
+      - themes\hugo-coder\exampleSite\content\contact.pt-br.md
+      - themes\hugo-coder\exampleSite\content\projects.md
+      - themes\hugo-coder\exampleSite\content\projects.pt-br.md
     fields:
       - type: string
         name: title
@@ -73,11 +114,16 @@ models:
       - type: string
         name: slug
         label: Slug
-  content_2:
+  page_4:
     type: page
-    label: Content 2
-    folder: exampleSite\content
-    match: '**/*'
+    label: Page 4
+    match:
+      - content\categories\syntax\_index.pt-br.md
+      - content\categories\themes\_index.pt-br.md
+      - content\tags\shortcodes\_index.pt-br.md
+      - themes\hugo-coder\exampleSite\content\categories\syntax\_index.pt-br.md
+      - themes\hugo-coder\exampleSite\content\categories\themes\_index.pt-br.md
+      - themes\hugo-coder\exampleSite\content\tags\shortcodes\_index.pt-br.md
     fields:
       - type: boolean
         name: draft
@@ -91,11 +137,45 @@ models:
       - type: string
         name: url
         label: Url
-  post:
+  page_5:
     type: page
-    label: Post
-    folder: exampleSite\content\posts
-    match: '*'
+    label: Page 5
+    match:
+      - content\posts\emoji-support.md
+      - content\posts\emoji-support.pt-br.md
+      - content\posts\external-post.md
+      - content\posts\external-post.pt-br.md
+      - content\posts\html-and-css-only-tabs.md
+      - content\posts\html-and-css-only-tabs.pt-br.md
+      - content\posts\markdown-syntax.md
+      - content\posts\markdown-syntax.pt-br.md
+      - content\posts\math-typesetting.md
+      - content\posts\mermaid-support.md
+      - content\posts\mermaid-support.pt-br.md
+      - content\posts\more-rich-content.md
+      - content\posts\more-rich-content.pt-br.md
+      - content\posts\placeholder-text.md
+      - content\posts\placeholder-text.pt-br.md
+      - content\posts\rich-content.md
+      - content\posts\rich-content.pt-br.md
+      - themes\hugo-coder\exampleSite\content\posts\emoji-support.md
+      - themes\hugo-coder\exampleSite\content\posts\emoji-support.pt-br.md
+      - themes\hugo-coder\exampleSite\content\posts\external-post.md
+      - themes\hugo-coder\exampleSite\content\posts\external-post.pt-br.md
+      - themes\hugo-coder\exampleSite\content\posts\html-and-css-only-tabs.md
+      - >-
+        themes\hugo-coder\exampleSite\content\posts\html-and-css-only-tabs.pt-br.md
+      - themes\hugo-coder\exampleSite\content\posts\markdown-syntax.md
+      - themes\hugo-coder\exampleSite\content\posts\markdown-syntax.pt-br.md
+      - themes\hugo-coder\exampleSite\content\posts\math-typesetting.md
+      - themes\hugo-coder\exampleSite\content\posts\mermaid-support.md
+      - themes\hugo-coder\exampleSite\content\posts\mermaid-support.pt-br.md
+      - themes\hugo-coder\exampleSite\content\posts\more-rich-content.md
+      - themes\hugo-coder\exampleSite\content\posts\more-rich-content.pt-br.md
+      - themes\hugo-coder\exampleSite\content\posts\placeholder-text.md
+      - themes\hugo-coder\exampleSite\content\posts\placeholder-text.pt-br.md
+      - themes\hugo-coder\exampleSite\content\posts\rich-content.md
+      - themes\hugo-coder\exampleSite\content\posts\rich-content.pt-br.md
     fields:
       - type: list
         name: authors
@@ -140,11 +220,12 @@ models:
       - type: boolean
         name: math
         label: Math
-  post_1:
+  page_6:
     type: page
-    label: Post 1
-    folder: exampleSite\content\posts
-    match: '*'
+    label: Page 6
+    match:
+      - content\posts\math-typesetting.pt-br.md
+      - themes\hugo-coder\exampleSite\content\posts\math-typesetting.pt-br.md
     fields:
       - type: list
         name: authors
@@ -181,7 +262,7 @@ models:
   hugo:
     type: data
     label: Hugo
-    file: exampleSite\hugo.toml
+    file: themes\hugo-coder\exampleSite\hugo.toml
     fields:
       - type: string
         name: baseURL
@@ -393,10 +474,29 @@ models:
                         - type: string
                           name: url
                           label: Url
-  i_18_n:
+  hugo_1:
     type: data
-    label: I 18 N
-    folder: i18n
+    label: Hugo 1
+    file: themes\hugo-coder\hugo.toml
+    fields:
+      - type: string
+        name: baseURL
+        label: Base URL
+      - type: object
+        name: module
+        label: Module
+        fields:
+          - type: object
+            name: hugoVersion
+            label: Hugo Version
+            fields:
+              - type: string
+                name: min
+                label: Min
+  data_1:
+    type: data
+    label: Data 1
+    folder: ''
     fields:
       - type: object
         name: categories
@@ -569,9 +669,45 @@ models:
           - type: string
             name: other
             label: Other
-  data_1:
+  netlify:
     type: data
-    label: Data 1
+    label: Netlify
+    file: themes\hugo-coder\netlify.toml
+    fields:
+      - type: object
+        name: build
+        label: Build
+        fields:
+          - type: string
+            name: publish
+            label: Publish
+          - type: string
+            name: command
+            label: Command
+          - type: object
+            name: environment
+            label: Environment
+            fields:
+              - type: string
+                name: HUGO_VERSION
+                label: HUGO VERSION
+              - type: string
+                name: HUGO_THEME
+                label: HUGO THEME
+      - type: object
+        name: context
+        label: Context
+        fields:
+          - type: object
+            name: deploy-preview
+            label: Deploy Preview
+            fields:
+              - type: string
+                name: command
+                label: Command
+  data_2:
+    type: data
+    label: Data 2
     folder: ''
     fields:
       - type: string
@@ -587,3 +723,49 @@ models:
           - type: string
             name: Integrity
             label: Integrity
+  theme:
+    type: data
+    label: Theme
+    file: themes\hugo-coder\theme.toml
+    fields:
+      - type: string
+        name: name
+        label: Name
+      - type: string
+        name: license
+        label: License
+      - type: string
+        name: licenselink
+        label: Licenselink
+      - type: string
+        name: description
+        label: Description
+      - type: string
+        name: homepage
+        label: Homepage
+      - type: string
+        name: demosite
+        label: Demosite
+      - type: list
+        name: tags
+        label: Tags
+        items:
+          type: string
+      - type: list
+        name: features
+        label: Features
+        items:
+          type: string
+      - type: string
+        name: min_version
+        label: Min Version
+      - type: object
+        name: author
+        label: Author
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: homepage
+            label: Homepage
