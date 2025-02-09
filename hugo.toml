@@ -1,5 +1,5 @@
-baseURL = "http://www.example.com"
-title = "johndoe"
+baseURL = "http://www.jonthefilmmmaker.com"
+title = "Jon the Filmmaker"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -22,9 +22,9 @@ noClasses = false
 unsafe = true
 
 [params]
-author = "John Doe"
+author = "Jon Stanley"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "John Doe's personal website"
+description = "Jon Stanley is a filmmaker and SEO specialist"
 keywords = "blog,developer,personal"
 info = ["Full Stack DevOps", "Magician"]
 avatarURL = "images/avatar.jpg"
