@@ -1,0 +1,24 @@
+
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container post">
+    <article>
+      <header>
+        <h1 class="title">{{ .Title }}</h1>
+      </header>
+      <div class="content">
+        <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe src="https://player.vimeo.com/video/{{ .Params.vimeoID }}" 
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                  frameborder="0" 
+                  allow="autoplay; fullscreen; picture-in-picture" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+        {{ .Content }}
+      </div>
+    </article>
+  </section>
+{{ end }}
