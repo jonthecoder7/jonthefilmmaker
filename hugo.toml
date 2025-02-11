@@ -174,29 +174,20 @@ url = "https://medium.com/@jonthefilmmaker"
 [[params.social]]
 name = "Instagram"
 icon = "fa-brands fa-instagram fa-2x"
-weight = 5
+weight = 6
 url = "https://www.instagram.com/voltamotion/"
 
 [[params.social]]
 name = "TikTok"
 icon = "fa-brands fa-tiktok fa-2x"
-weight = 5
+weight = 7
 url = "https://www.tiktok.com/@jonthefilmmaker55"
 
 [[params.social]]
-name = "Schedule a call"
-icon = "fa-brands fa-calendar fa-2x"
-weight = 5
-url = "https://voltamotionstudios.hbportal.co/public/67a8ee2d9bbf2e002234c91c"
-
-
-# [[params.social]]
-# name = "RSS"
-# icon = "fa-solid fa-rss fa-2x"
-# weight = 6
-# url = "https://myhugosite.com/index.xml"
-# rel = "alternate"
-# type = "application/rss+xml"
+name = "Vimeo"
+icon = "fa-brands fa-vimeo fa-2x"
+weight = 8
+url = "https://vimeo.com/jonthefilmmaker"
 
 [languages.en]
 languageName = ":uk:"

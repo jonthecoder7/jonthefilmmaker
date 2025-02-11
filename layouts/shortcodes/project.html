@@ -1,0 +1,11 @@
+<div class="project">
+    <h2>{{ .Get "title" }}</h2>
+    <p>{{ .Get "description" }}</p>
+    {{ with .Get "image" }}
+      <img src="{{ . }}" alt="{{ $.Get "title" }}">
+    {{ end }}
+    {{ with .Get "link" }}
+      <p><a href="{{ . }}">Learn more</a></p>
+    {{ end }}
+  </div>
+  

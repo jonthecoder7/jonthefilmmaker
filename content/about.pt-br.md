@@ -15,4 +15,5 @@ Em meu trabalho comercial, faço parcerias com pequenas empresas para criar cont
 Meu trabalho com documentários concentra-se em amplificar vozes e histórias sub-representadas que, de outra forma, poderiam passar despercebidas. Sou particularmente atraído por narrativas que promovem a cura e lançam luz sobre questões sociais contemporâneas. Acredito no poder do cinema tanto para documentar nossas lutas quanto para inspirar mudanças positivas.
 
 Seja você um pequeno empresário procurando melhorar sua presença digital ou alguém com uma história significativa para contar, estou aqui para ajudar a dar vida à sua visão. Para projetos comerciais, ofereço serviços abrangentes de produção de vídeo e SEO. Para colaborações em documentários, estou aberto a discussões sobre projetos potenciais e como podemos trabalhar juntos para compartilhar sua história com o mundo.
-Vamos criar algo significativo juntos.
+
+[Vamos criar algo maior, juntos.]("https://www.honeybook.com/widget/jon_the_filmmaker_287840/cf_id/67a8ef25e3bca2002561c7cb")
