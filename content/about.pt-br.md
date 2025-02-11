@@ -1,25 +1,18 @@
 +++
 title = "About"
 description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
+date = "2025-02-10"
 aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+author = "Jon Stanley"
 +++
 
-Escrito em Go, Hugo é um gerador de sites estáticos de código aberto disponível sobre a licença [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) O Hugo suporta TOML, YAML e JSON como arquivos de dados, Markdown e HTML como arquivos de conteúdo, e usa shortcodes para adicionar conteúdos ricos. Outras funcionalidades notaveis são taxonomias, modo multilingual, processamento de imagens, formatos de saída customizaveis, minificação de HTML/CSS/JS e suporte a fluxos SASS/SCSS.
+Como cineasta e especialista em SEO para vídeos baseado em Durham, Carolina do Norte, faço a ponte entre narrativas envolventes e visibilidade digital. Minha missão é amplificar vozes que merecem ser ouvidas e ajudar empresas a criar conteúdo que verdadeiramente se conecte com seu público.
 
-O Hugo faz o uso de vários projetos de código aberto incluíndo:
+Com base em minha experiência de dois anos morando e trabalhando no Brasil, onde lecionei inglês para profissionais de negócios, trago uma perspectiva global e sensibilidade cultural para cada projeto. Minha fluência em português e imersão na cultura brasileira enriqueceram minha abordagem narrativa, permitindo-me conectar com diversos públicos e histórias.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Em meu trabalho comercial, faço parcerias com pequenas empresas para criar conteúdo em vídeo que chama a atenção e gera resultados. Entendo que no cenário digital atual, criar ótimo conteúdo é apenas metade da batalha – ele precisa ser descoberto e envolvente. Combinando meu olhar de cineasta com expertise em SEO, ajudo a garantir que seus vídeos não apenas pareçam profissionais, mas também alcancem e convertam seu público-alvo.
 
-O Hugo é ideal para blogs, sites corporativos, protfólio criativos, revistas online, aplicações de página única ou até sites com milhares de páginas.
+Meu trabalho com documentários concentra-se em amplificar vozes e histórias sub-representadas que, de outra forma, poderiam passar despercebidas. Sou particularmente atraído por narrativas que promovem a cura e lançam luz sobre questões sociais contemporâneas. Acredito no poder do cinema tanto para documentar nossas lutas quanto para inspirar mudanças positivas.
 
-O Hugo é para pessoas que querem cuidar do seu próprio site sem se preocupar com a configuração ambientes complicados, dependências e bancos de dados.
-
-Sites contru;idos com Hugo são extremamente rápidos, seguros e podem ser implantados em qualquer lugar, incluíndo AWS, GitHub Pages, Heroku, Netlify e outros provedores de hospedagem.
-
-Saiba mais e contribua em [GitHub](https://github.com/gohugoio).
+Seja você um pequeno empresário procurando melhorar sua presença digital ou alguém com uma história significativa para contar, estou aqui para ajudar a dar vida à sua visão. Para projetos comerciais, ofereço serviços abrangentes de produção de vídeo e SEO. Para colaborações em documentários, estou aberto a discussões sobre projetos potenciais e como podemos trabalhar juntos para compartilhar sua história com o mundo.
+Vamos criar algo significativo juntos.

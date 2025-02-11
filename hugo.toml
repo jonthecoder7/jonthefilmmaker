@@ -169,7 +169,20 @@ url = "https://linkedin.com/in/jon-s-a23b62132"
 name = "Medium"
 icon = "fa-brands fa-medium fa-2x"
 weight = 5
+url = "https://medium.com/@jonthefilmmaker"
+
+[[params.social]]
+name = "Instagram"
+icon = "fa-brands fa-instagram fa-2x"
+weight = 5
+url = "https://medium.com/@jonthefilmmaker"
+
+[[params.social]]
+name = "TikTok"
+icon = "fa-brands fa-tiktok fa-2x"
+weight = 5
 url = "https://medium.com/@johndoe"
+
 
 # [[params.social]]
 # name = "RSS"
@@ -204,7 +217,7 @@ url = "https://www.honeybook.com/widget/jon_the_filmmaker_287840/cf_id/67a8ef25e
 
 [languages.pt-br]
 languageName = ":brazil:"
-title = "Jon Stanley"
+title = "Jon The Filmmaker"
 
 [languages.pt-br.params]
 author = "Jon Stanley"
