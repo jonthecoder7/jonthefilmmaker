@@ -1,0 +1,25 @@
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card img {
+  max-width: 100%;
+}
+
+.project-card h3 {
+  text-align: center;
+  padding: 10px;
+}
