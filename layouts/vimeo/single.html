@@ -2,6 +2,7 @@
 {{ define "title" }}
   {{ .Title }} · {{ .Site.Title }}
 {{ end }}
+
 {{ define "content" }}
   <section class="container post">
     <article>
@@ -9,14 +10,15 @@
         <h1 class="title">{{ .Title }}</h1>
       </header>
       <div class="content">
-        <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-          <iframe src="https://player.vimeo.com/video/{{ .Params.vimeoID }}" 
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+        <div style="padding:56.25% 0 0 0;position:relative;">
+          <iframe src="https://player.vimeo.com/video/1055724030?h=22f683bc62&badge=0&autopause=0&player_id=0&app_id=58479" 
                   frameborder="0" 
-                  allow="autoplay; fullscreen; picture-in-picture" 
-                  allowfullscreen>
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+                  style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                  title="Sherlock's Glass Promo">
           </iframe>
         </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
         {{ .Content }}
       </div>
     </article>

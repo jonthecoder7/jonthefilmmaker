@@ -1,10 +1,9 @@
 
 +++
-title = "Sherlocks"
+title = "Sherlock's Glass Promo"
 date = "2023-12-14"
-vimeoID = "055724030"
 layout = "vimeo"
-description = "A sample video page"
+description = "Promotional video for Sherlock's Glass and Dispensary in Durham, NC"
 +++
 
-This is my awesome video description. You can add any markdown content below the video.
+A showcase of Sherlock's Glass and Dispensary, highlighting their premium products and welcoming atmosphere. This promotional video captures the essence of Durham's premier hemp shop.
