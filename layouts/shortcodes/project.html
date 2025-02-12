@@ -2,9 +2,10 @@
     <h2>{{ .Get "title" }}</h2>
     <p>{{ .Get "description" }}</p>
     {{ with .Get "image" }}
-      <a href="{{ .Get "link" }}">
-        <img src="{{ . }}" alt="{{ $.Get "title" }}">
-      </a>
+      <img src="{{ . }}" alt="{{ $.Get "title" }}">
+    {{ end }}
+    {{ with .Get "link" }}
+      <p><a href="{{ . }}">Learn more</a></p>
     {{ end }}
   </div>
   
