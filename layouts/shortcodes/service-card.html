@@ -1,0 +1,8 @@
+
+<div class="service-card">
+  <h3>{{ .Get "title" }}</h3>
+  <p>{{ .Get "description" }}</p>
+  {{ with .Get "link" }}
+    <a href="{{ . }}" class="service-link">Learn more</a>
+  {{ end }}
+</div>
