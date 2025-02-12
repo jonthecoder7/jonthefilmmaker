@@ -1,4 +1,4 @@
-baseURL = "http://www.jonthefilmmaker.com"
+baseURL = "https://jonthefilmmaker.com"
 title = "Jon the Filmmaker"
 theme = "hugo-coder"
 languageCode = "en"
@@ -198,14 +198,14 @@ weight = 1
 url = "about/"
 
 [[languages.en.menu.main]]
-name = "Blog"
-weight = 2
-url = "posts/"
-
-[[languages.en.menu.main]]
 name = "Projects"
 weight = 3
 url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Services"
+weight = 4
+url = "services/"
 
 [[languages.en.menu.main]]
 name = "Contact me"
@@ -226,11 +226,6 @@ keywords = "videografia,seo,documentario"
 name = "Sobre"
 weight = 1
 url = "about/"
-
-[[languages.pt-br.menu.main]]
-name = "Blog"
-weight = 2
-url = "posts/"
 
 [[languages.pt-br.menu.main]]
 name = "Projetos"
