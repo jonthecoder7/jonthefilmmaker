@@ -7,3 +7,5 @@ description = "Promotional video for Sherlock's Glass and Dispensary in Durham, 
 +++
 
 A showcase of Sherlock's Glass and Dispensary, highlighting their premium products and welcoming atmosphere. This promotional video captures the essence of Durham's premier hemp shop.
+
+{{ vimeo 1055724030 }}

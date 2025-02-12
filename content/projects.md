@@ -3,7 +3,7 @@ title = "Projects"
 slug = "projects"
 +++
 
-{{< project title="Sherlock's Glass and Dispensary" description="Local hemp shop in Durham, NC" image="images/project1.png" link="https://vimeo.com/1055724030/22f683bc62?ts=0&share=copy" >}}
+{{< project title="Sherlock's Glass and Dispensary" description="Local hemp shop in Durham, NC" image="images/project1.jpg" link="sherlocks/" >}}
 
 {{< project title="Project 2" description="Description of Project 2." image="images/project2.jpg" link="project2/" >}}
 
