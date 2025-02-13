@@ -6,12 +6,13 @@
       end }}
     </title>
     {{ partial "head.html" . }}
+    {{ if .IsHome }}
     <script type="application/ld+json">
       {
-        "@context": "https://schema.org/",
+        "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "Jon The Filmmaker",
-        "url": "https://jonthefilmmaker.com/",
+        "name": "{{ .Site.Title }}",
+        "url": "{{ .Site.BaseURL }}",
         "potentialAction": {
           "@type": "SearchAction",
           "target": "{search_term_string}",
@@ -19,6 +20,17 @@
         }
       }
     </script>
+    {{ else }}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "{{ .Title }}",
+        "description": "{{ .Description | default .Summary }}",
+        "url": "{{ .Permalink }}"
+      }
+    </script>
+    {{ end }}
   </head>
 
   {{ $csClass := "colorscheme-light" }} {{ if eq .Site.Params.colorScheme "dark"
