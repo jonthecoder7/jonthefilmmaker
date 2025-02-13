@@ -45,15 +45,16 @@
       src="{{ $script.RelPermalink }}"
       integrity="{{ $script.Data.Integrity }}"
     ></script>
-    {{ end }} {{ range .Site.Params.customJS }} {{ if hugo.IsServer }} {{
-    $script := resources.Get . }}
-    <script src="{{ $script.RelPermalink }}"></script>
-    {{ else }} {{ $script := resources.Get . | minify | fingerprint }}
-    <script
-      src="{{ $script.RelPermalink }}"
-      integrity="{{ $script.Data.Integrity }}"
-    ></script>
-    {{ end }} {{ end }} {{ range .Site.Params.customRemoteJS }} {{ if
+    {{ end }}
+    {{ range .Site.Params.customJS }}
+      {{ if hugo.IsServer }}
+        {{ $script := resources.Get . }}
+        <script src="{{ $script.RelPermalink }}"></script>
+      {{ else }}
+        {{ $script := resources.Get . | minify | fingerprint }}
+        <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+      {{ end }}
+    {{ end }} {{ range .Site.Params.customRemoteJS }} {{ if
     hugo.IsServer }} {{ $script := resources.GetRemote . }}
     <script src="{{ $script.RelPermalink }}"></script>
     {{ else }} {{ $script := resources.GetRemote . | minify | fingerprint }}
