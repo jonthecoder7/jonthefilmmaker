@@ -6,19 +6,6 @@
       end }}
     </title>
     {{ partial "head.html" . }}
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org/",
-        "@type": "WebSite",
-        "name": "Jon The Filmmaker",
-        "url": "https://jonthefilmmaker.com/",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "{search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      }
-    </script>
   </head>
 
   {{ $csClass := "colorscheme-light" }} {{ if eq .Site.Params.colorScheme "dark"
