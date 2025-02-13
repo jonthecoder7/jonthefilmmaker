@@ -1,0 +1,144 @@
+To create a **customizable landing page** in Hugo that adapts to different videography niches, we should:
+
+1. **Use Hugo’s Partial Templates** → So sections like hero banners, services, and testimonials can be reused.
+2. **Make It Configurable with Front Matter & Site Params** → So you can customize it per niche.
+3. **Keep it Minimal Yet Visually Strong** → Using **CSS flex/grid** and responsive design.
+
+---
+
+### **📌 Steps to Implement in Hugo**
+#### **1️⃣ Create a Partial for the Hero Section**
+Create `layouts/partials/hero.html`:
+
+```html
+<section class="hero">
+  <div class="container">
+    <h1>{{ .Site.Params.hero_title | default "Capture Your Story with Stunning Visuals" }}</h1>
+    <p>{{ .Site.Params.hero_subtitle | default "Professional videography that brings your vision to life." }}</p>
+    <a href="{{ .Site.Params.hero_cta_link | default "/contact" }}" class="cta-button">
+      {{ .Site.Params.hero_cta_text | default "Book a Session" }}
+    </a>
+  </div>
+</section>
+```
+
+#### **2️⃣ Add It to Your Base Layout**
+Modify `layouts/index.html` to **include the hero partial**:
+
+```html
+{{ define "main" }}
+  {{ partial "hero.html" . }}
+  {{ partial "services.html" . }}
+  {{ partial "portfolio.html" . }}
+  {{ partial "contact.html" . }}
+{{ end }}
+```
+
+---
+
+#### **3️⃣ Make It Customizable via `config.toml`**
+Update `config.toml`:
+
+```toml
+[params]
+  hero_title = "Create, Inspire, Captivate"
+  hero_subtitle = "From concept to reality – stunning visuals for every story."
+  hero_cta_text = "Let's Get Started"
+  hero_cta_link = "/portfolio"
+```
+
+---
+
+#### **4️⃣ Create a Partial for Services**
+`layouts/partials/services.html`:
+
+```html
+<section class="services">
+  <h2>My Specialties</h2>
+  <div class="services-grid">
+    {{ range .Site.Params.services }}
+    <div class="service-item">
+      <h3>{{ .title }}</h3>
+      <p>{{ .description }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+```
+
+##### **➜ Add Services in `config.toml`**
+```toml
+[[params.services]]
+  title = "Event Videography"
+  description = "Capture weddings, conferences, and special moments with cinematic quality."
+
+[[params.services]]
+  title = "Commercial Shoots"
+  description = "Bring your brand to life with high-impact promotional videos."
+
+[[params.services]]
+  title = "Music Videos"
+  description = "Turn your music into a visual masterpiece with creative storytelling."
+```
+
+---
+
+#### **5️⃣ Create a Partial for Portfolio**
+`layouts/partials/portfolio.html`:
+
+```html
+<section class="portfolio">
+  <h2>Recent Projects</h2>
+  <div class="portfolio-grid">
+    {{ range .Site.Params.portfolio }}
+    <div class="portfolio-item">
+      <img src="{{ .image }}" alt="{{ .title }}">
+      <h3>{{ .title }}</h3>
+      <p>{{ .description }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+```
+
+##### **➜ Add Portfolio Items in `config.toml`**
+```toml
+[[params.portfolio]]
+  title = "Music Video for XYZ Band"
+  description = "A high-energy visual journey capturing the band's essence."
+  image = "/images/music-video.jpg"
+
+[[params.portfolio]]
+  title = "Wedding Cinematic Reel"
+  description = "A love story beautifully captured in cinematic style."
+  image = "/images/wedding.jpg"
+```
+
+---
+
+### **🎨 Basic CSS to Style It**
+Add this to `static/css/style.css`:
+
+```css
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #000;
+  color: #fff;
+}
+
+.services-grid, .portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+```
+
+---
+
+### **🚀 Next Steps**
+1️⃣ **Deploy & Test**: Run `hugo server` and make sure everything renders properly.  
+2️⃣ **Adjust for Different Niches**: Swap out values in `config.toml` (e.g., wedding, commercial, documentary).  
+3️⃣ **Add More Pages**: Create `/about/` and `/contact/` pages.  
+
+Would you like **video embeds** or **a booking form** added next? 🚀
