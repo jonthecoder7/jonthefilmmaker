@@ -2,6 +2,19 @@
 <!doctype html>
 <html lang="{{ .Site.Language.Lang }}">
   <head>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "Jon The Filmmaker",
+  "url": "https://jonthefilmmaker.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+    </script>
     <title>{{ block "title" . }}{{ .Site.Params.HeadTitle | default .Site.Title }}{{ end }}</title>
     {{ partial "head.html" . }}
   </head>
