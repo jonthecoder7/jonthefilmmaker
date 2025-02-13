@@ -28,3 +28,6 @@ We deliver high-quality video content that captures your story and engages your 
 - **Fast Turnaround** - Efficient production timeline
 
 [Contact Us](/contact) to discuss your video project today.
+
+### Industry-Specific Solutions
+* [Cannabis Brand Video Production](/services/cannabis-video) - Specialized video marketing for cannabis brands
