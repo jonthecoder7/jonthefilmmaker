@@ -4,6 +4,7 @@
 <head>
   <title>{{ block "title" . }}{{ .Site.Params.HeadTitle | default .Site.Title }}{{ end }}</title>
   {{ partial "head.html" . }}
+  {{ partial "schema.html" . }}
 </head>
 
 {{ $csClass := "colorscheme-light" }}
